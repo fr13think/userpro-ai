@@ -1,0 +1,19 @@
+database:
+  url: 'sqlite:///./ai_platform.db'
+
+llama:
+  model_path: 'path/to/llama/model.bin'
+
+groq:
+  api_key: 'your_groq_api_key_here'
+
+streamlit:
+  page_title: 'AI Conversation Platform'
+  layout: 'wide'
+
+logging:
+  level: 'INFO'
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+analytics:
+  retention_days: 30
